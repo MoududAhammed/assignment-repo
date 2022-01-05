@@ -1,0 +1,79 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    display: flex;
+}
+h1{
+    font-size:  50px;;
+    
+}
+#color{
+    color: orange;
+}
+.welcome{
+    width: 100%;
+    text-align: justify;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    
+}
+.exprience{
+    width: 100%;
+    text-align: justify;
+    background-image: url(images/background1.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    
+}
+.exprience img{
+    height: 500px;
+    width: 500px;
+    margin-right:200px;
+}
+.welcome div{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.welcome img{
+    height: 500px;
+    width: 500px;
+    margin-left: 200px;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 6px;
+    font-weight: 900px;
+    text-align: center;
+    margin-top: 10px;
+}
+.client{
+    height: 500px;
+    width: 500px;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-left: solid 10px tomato ;
+    margin-left: 100px;
+
+}
+.review{
+    margin-left: 200px;
+    box-shadow:10px 10px 40px yellowgreen ;
+    height: 500px;
+    width: 500px;
+    padding-left: 20px;
+    border-left:solid 10px blueviolet;
+}
+.last-page{
+    margin-top: 200px;
+    background-image: url(images/background2.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+
